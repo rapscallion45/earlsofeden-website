@@ -60,27 +60,27 @@ const About: React.FC = () => (
                 About
             </h1>
 
-            <p className="mb-6 text-lg md:text-xl leading-relaxed font-bold">
+            <p className="mb-6 text-lg md:text-xl leading-relaxed font-semibold">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
                 odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
                 quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
                 mauris.
             </p>
 
-            <p className="mb-6 text-lg md:text-xl leading-relaxed font-bold">
+            <p className="mb-6 text-lg md:text-xl leading-relaxed font-semibold">
                 Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum
                 lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora
                 torquent per conubia nostra, per inceptos himenaeos. Curabitur
                 sodales ligula in libero.
             </p>
 
-            <p className="mb-6 text-lg md:text-xl leading-relaxed font-bold">
+            <p className="mb-6 text-lg md:text-xl leading-relaxed font-semibold">
                 Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean
                 quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis
                 tristique sem. Proin ut ligula vel nunc egestas porttitor.
             </p>
 
-            <p className="mb-6 text-lg md:text-xl leading-relaxed font-bold">
+            <p className="mb-6 text-lg md:text-xl leading-relaxed font-semibold">
                 Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean
                 quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis
                 tristique sem. Proin ut ligula vel nunc egestas porttitor.
@@ -119,7 +119,7 @@ const About: React.FC = () => (
                             <h2 className="text-3xl md:text-4xl font-display font-extrabold mb-4 text-amber-700">
                                 {item.title}
                             </h2>
-                            <p className="text-lg md:text-xl leading-relaxed text-amber-700">{item.text}</p>
+                            <p className="text-lg md:text-xl leading-relaxed text-amber-700 font-semibold">{item.text}</p>
                         </div>
                     </div>
                 );
