@@ -25,7 +25,7 @@ const Hero: React.FC = () => (
                     EARLS OF EDEN
                 </h1>
                 <img
-                    src="/assets/album_art.webp"
+                    src="/assets/albumcover.png"
                     alt="Logo"
                     className="mx-auto my-10 w-60 lg:w-80 h-auto"
                 />
