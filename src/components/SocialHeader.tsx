@@ -4,7 +4,7 @@ const SocialHeader: React.FC = () => {
     const socials = [
         {
             name: 'Instagram',
-            href: 'https://www.instagram.com/royalblooduk/',
+            href: 'https://www.instagram.com/earlsofeden/',
             svg: (
                 <svg
                     role="img"
@@ -23,7 +23,7 @@ const SocialHeader: React.FC = () => {
         },
         {
             name: 'TikTok',
-            href: 'https://www.tiktok.com/@royalblooduk',
+            href: 'https://www.tiktok.com/@earlsofeden',
             svg: (
                 <svg
                     role="img"
@@ -39,7 +39,7 @@ const SocialHeader: React.FC = () => {
         },
         {
             name: 'YouTube',
-            href: 'https://www.tiktok.com/@royalblooduk',
+            href: 'https://www.youtube.com/@earlsofeden',
             svg: (
                 <svg
                     role="img"
@@ -56,7 +56,7 @@ const SocialHeader: React.FC = () => {
         },
         {
             name: 'Facebook',
-            href: 'https://www.tiktok.com/@royalblooduk',
+            href: 'https://www.facebook.com/earlsofeden',
             svg: (
                 <svg
                     role="img"
@@ -71,26 +71,26 @@ const SocialHeader: React.FC = () => {
                 </svg>
             ),
         },
-        {
-            name: 'Twitter',
-            href: 'https://www.tiktok.com/@royalblooduk',
-            svg: (
-                <svg
-                    role="img"
-                    className="social-icon w-6 h-6 text-white"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 100 100"
-                    fill="currentColor"
-                >
-                    <title>X</title>
-                    <path
-                        d="M57.563,43.773l27.637-32.126h-6.549l-23.997,27.895-19.167-27.895H13.38l28.984,42.182-28.984,33.689h6.55l25.342-29.458,20.241,29.458h22.107l-30.059-43.745h.002ZM48.592,54.2l-2.937-4.2L22.29,16.577h10.06l18.857,26.973,2.937,4.2,24.511,35.061h-10.06l-20.002-28.61v-.002Z"/>
-                </svg>
-            ),
-        },
+        // {
+        //     name: 'Twitter',
+        //     href: 'https://www.tiktok.com/@royalblooduk',
+        //     svg: (
+        //         <svg
+        //             role="img"
+        //             className="social-icon w-6 h-6 text-white"
+        //             xmlns="http://www.w3.org/2000/svg"
+        //             viewBox="0 0 100 100"
+        //             fill="currentColor"
+        //         >
+        //             <title>X</title>
+        //             <path
+        //                 d="M57.563,43.773l27.637-32.126h-6.549l-23.997,27.895-19.167-27.895H13.38l28.984,42.182-28.984,33.689h6.55l25.342-29.458,20.241,29.458h22.107l-30.059-43.745h.002ZM48.592,54.2l-2.937-4.2L22.29,16.577h10.06l18.857,26.973,2.937,4.2,24.511,35.061h-10.06l-20.002-28.61v-.002Z"/>
+        //         </svg>
+        //     ),
+        // },
         {
             name: 'Spotify',
-            href: 'https://www.tiktok.com/@royalblooduk',
+            href: '#',
             svg: (
                 <svg
                     role="img"
@@ -107,7 +107,7 @@ const SocialHeader: React.FC = () => {
         },
         {
             name: 'Apple Music',
-            href: 'https://www.tiktok.com/@royalblooduk',
+            href: '#',
             svg: (
                 <svg
                     role="img"
