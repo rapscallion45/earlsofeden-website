@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                 <SocialHeader />
 
                 {/* Copyright */}
-                <div className="text-sm text-gray-500">
+                <div className="text-sm text-amber-700">
                     © {currentYear},{" "}
                     <a href="/" className="hover:text-white transition">
                         Earls Of Eden

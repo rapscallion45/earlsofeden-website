@@ -43,7 +43,7 @@ const SocialHeader: React.FC = () => {
             svg: (
                 <svg
                     role="img"
-                    className="social-icon w-6 h-6 text-white"
+                    className="social-icon w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 100 100"
                     fill="currentColor"
@@ -60,7 +60,7 @@ const SocialHeader: React.FC = () => {
             svg: (
                 <svg
                     role="img"
-                    className="social-icon w-6 h-6 text-white"
+                    className="social-icon w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 100 100"
                     fill="currentColor"
@@ -94,7 +94,7 @@ const SocialHeader: React.FC = () => {
             svg: (
                 <svg
                     role="img"
-                    className="social-icon w-6 h-6 text-white"
+                    className="social-icon w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 100 100"
                     fill="currentColor"
@@ -111,7 +111,7 @@ const SocialHeader: React.FC = () => {
             svg: (
                 <svg
                     role="img"
-                    className="social-icon w-6 h-6 text-white"
+                    className="social-icon w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 100 100"
                     fill="currentColor"
@@ -129,7 +129,7 @@ const SocialHeader: React.FC = () => {
             <ul className="flex space-x-3" role="list">
                 {socials.map((social) => (
                     <li key={social.name} className="social-link">
-                        <a href={social.href} target="_blank" rel="noopener noreferrer" className="link">
+                        <a href={social.href} target="_blank" rel="noopener noreferrer" className="link text-amber-700 hover:text-white">
                             <span className="sr-only">Official {social.name}</span>
                             {social.svg}
                         </a>
