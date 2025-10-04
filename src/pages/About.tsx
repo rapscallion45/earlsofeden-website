@@ -115,7 +115,7 @@ const About: React.FC = () => (
                         </div>
 
                         {/* Text */}
-                        <div className="w-full md:w-1/2">
+                        <div className="w-full md:w-1/2 mt-6 lg:mt-0">
                             <h2 className="text-3xl md:text-4xl font-display font-extrabold mb-4 text-amber-700">
                                 {item.title}
                             </h2>
