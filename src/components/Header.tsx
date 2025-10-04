@@ -49,12 +49,12 @@ const Header: React.FC = () => {
             {/* Mobile menu */}
             {isOpen && (
                 <div className="bg-black/90">
-                    <nav className="md:hidden bg-black/90 px-4 pb-4 space-y-2 text-amber-700 hover:text-white text-xl">
+                    <nav className="md:hidden bg-black/90 px-4 pb-4 space-y-2 text-amber-700 text-xl">
                         <a href="/" className="block py-2 hover:opacity-80 font-bold">Home</a>
                         <a href="/music" className="block py-2 hover:opacity-80 font-bold">Music</a>
                         <a href="/about" className="block py-2 hover:opacity-80 font-bold">About</a>
                         {/*<a href="#shop" className="block py-2 hover:opacity-80 font-bold">Shop</a>*/}
-                        <a href="#contact" className="block py-2 hover:opacity-80 font-bold">Contact</a>
+                        {/*<a href="#contact" className="block py-2 hover:opacity-80 font-bold">Contact</a>*/}
                     </nav>
                     <div className="p-4 pb-8">
                     <SocialHeader />
