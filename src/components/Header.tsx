@@ -8,14 +8,14 @@ const Header: React.FC = () => {
         <header className="bg-black/80 text-white fixed w-full z-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
                 {/* Logo */}
-                <a href="/" className="font-display font-bold text-amber-700 hover:text-white text-xl">
+                <a href="/" className="font-display font-bold text-amber-700 text-xl">
                     EARLS OF EDEN
                 </a>
 
                 {/* Desktop nav */}
                 <div className={"hidden md:flex"}>
-                    <a href="/music" className="block py-2 hover:opacity-80 font-bold text-amber-700 hover:text-white">Music</a>
-                    <a href="/about" className="block py-2 hover:opacity-80 font-bold text-amber-700 hover:text-white md:px-4 mr-2">About</a>
+                    <a href="/music" className="block py-2 hover:opacity-80 font-bold text-amber-700">Music</a>
+                    <a href="/about" className="block py-2 hover:opacity-80 font-bold text-amber-700 md:px-4 mr-2">About</a>
                     <SocialHeader/>
                 </div>
 
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     <svg
-                        className="fill-current h-6 w-6 text-amber-700 hover:text-white"
+                        className="fill-current h-6 w-6 text-amber-700"
                         viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
                     >
