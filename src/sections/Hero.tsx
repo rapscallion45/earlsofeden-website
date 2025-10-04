@@ -21,7 +21,7 @@ const Hero: React.FC = () => (
         {/* Content */}
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
             <div className="bg-black/40 p-8 rounded-2xl max-w-xl mx-auto">
-                <h1 className="text-6xl font-display font-extrabold tracking-tight text-amber-700">
+                <h1 className="text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-amber-700">
                     EARLS OF EDEN
                 </h1>
                 <img
@@ -29,7 +29,7 @@ const Hero: React.FC = () => (
                     alt="Logo"
                     className="mx-auto my-10 w-60 lg:w-80 h-auto"
                 />
-                <p className="font-display mt-6 font-body text-amber-700 font-bold text-4xl">
+                <p className="font-display mt-6 font-body text-amber-700 font-bold text-3xl lg:text-4xl">
                     Debut single "Save Me" out October 31st!
                 </p>
                 {/*<div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">*/}
