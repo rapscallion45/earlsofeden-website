@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <header className="bg-black/80 text-white fixed w-full z-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
                 {/* Logo */}
-                <a href="/" className="font-bold text-xl">
+                <a href="/" className="font-display font-bold text-xl">
                     EARLS OF EDEN
                 </a>
 
