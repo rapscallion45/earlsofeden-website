@@ -89,6 +89,22 @@ const SocialHeader: React.FC = () => {
         //     ),
         // },
         {
+            name: 'Soundcloud',
+            href: 'https://soundcloud.com/earlsofeden',
+            svg: (
+                <svg
+                    role="img"
+                    className="social-icon w-7 h-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100 100"
+                    fill="currentColor"
+                >
+                    <title>SoundCloud</title>
+                    <path d="M75.3,42.6c-0.7,0-1.4,0.1-2.1,0.2c-0.7-8.1-7.3-14.4-15.5-14.4c-6.6,0-12.2,4.2-14.1,10c-0.8-0.3-1.6-0.5-2.5-0.5 c-3.3,0-6,2.7-6,6v14.8c0,3.3,2.7,6,6,6h33c7.3,0,13.2-5.9,13.2-13.2C88.4,48.5,82.5,42.6,75.3,42.6z"/>
+                </svg>
+            ),
+        },
+        {
             name: 'Spotify',
             href: '#',
             svg: (
