@@ -6,7 +6,7 @@ const Music: FC = () => (
         <h2 className="text-4xl font-display font-bold text-amber-700 mb-6">Music</h2>
         <div className="grid md:grid-cols-3 gap-6">
             {Array.from({ length: 1 }).map((_, i) => (
-                <div key={i} className="card-bg p-6 rounded-lg hover:-translate-y-1 transition-transform">
+                <div key={i} className="card-bg p-6 rounded-lg hover:-translate-y-1 transition-transform cursor-pointer">
                     <img
                         src="/assets/album_art.webp"
                         alt="Logo"

@@ -20,7 +20,7 @@ const Hero: React.FC = () => (
 
         {/* Content */}
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-            <div className="bg-black/40 p-8 rounded-2xl max-w-xl mx-auto">
+            <div className="p-8 rounded-2xl max-w-xl mx-auto">
                 <h1 className="text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-amber-700">
                     EARLS OF EDEN
                 </h1>
