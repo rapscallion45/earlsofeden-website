@@ -37,21 +37,21 @@ const Hero: FC = () => {
                     </h1>
 
                     {/* Album cover with fixed height and pulsing placeholder */}
-                    <div className="relative mx-auto my-10 w-60 lg:w-80 h-80 lg:h-80">
+                    <div className="relative mx-auto my-0 lg:my-10 w-60 lg:w-80 h-80 lg:h-80">
                         {!imageLoaded && (
-                            <div className="absolute inset-0 bg-gray-400 animate-pulse rounded-lg" />
+                            <div className="absolute inset-0 bg-gray-400 animate-pulse rounded-lg"/>
                         )}
                         <img
                             src="/assets/albumcover.png"
                             alt="Logo"
-                            className={`w-full h-full object-cover rounded-lg transition-opacity duration-700 ${
+                            className={`w-full h-full object-contain rounded-lg transition-opacity duration-700 ${
                                 imageLoaded ? "opacity-100" : "opacity-0"
                             }`}
                             onLoad={() => setImageLoaded(true)}
                         />
                     </div>
 
-                    <p className="font-display mt-6 font-body text-amber-700 font-bold text-3xl lg:text-4xl">
+                    <p className="font-display mt-0 lg:mt-6 font-body text-amber-700 font-bold text-3xl lg:text-4xl">
                         Debut single "Save Me" out October 31st!
                     </p>
                 </div>
