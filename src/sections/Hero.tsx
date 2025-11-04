@@ -52,7 +52,7 @@ const Hero: FC = () => {
                     </div>
 
                     <p className="font-display mt-0 lg:mt-6 font-body text-amber-700 font-bold text-3xl lg:text-4xl">
-                        Debut single "Save Me" out October 31st!
+                        Debut single "Save Me" out now!!
                     </p>
                 </div>
             </div>
