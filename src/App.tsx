@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Music from './pages/Music'
+import Members from "./pages/Members";
 import About from './pages/About'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -15,6 +16,7 @@ const App: React.FC = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/music" element={<Music />} />
+                    <Route path="/members" element={<Members />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
             </main>

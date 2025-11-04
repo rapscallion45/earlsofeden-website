@@ -8,14 +8,17 @@ const Header: React.FC = () => {
         <header className="bg-black/80 text-white fixed w-full z-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
                 {/* Logo */}
-                <a href="/" className="font-display font-bold text-amber-700 text-xl">
+                <a href="/" className="font-display font-bold text-amber-700 hover:text-white text-xl">
                     EARLS OF EDEN
                 </a>
 
                 {/* Desktop nav */}
                 <div className={"hidden md:flex"}>
-                    <a href="/music" className="block py-2 hover:opacity-80 font-bold text-amber-700">Music</a>
-                    <a href="/about" className="block py-2 hover:opacity-80 font-bold text-amber-700 md:px-4 mr-2">About</a>
+                    <a href="/music" className="block py-2 hover:opacity-80 font-bold text-amber-700 hover:text-white mr-4">Music</a>
+                    <a href="/about"
+                       className="block py-2 hover:opacity-80 font-bold text-amber-700 hover:text-white">About</a>
+                    <a href="/members"
+                       className="block py-2 hover:opacity-80 font-bold text-amber-700 md:px-4 mr-2 hover:text-white">Members</a>
                     <SocialHeader/>
                 </div>
 
@@ -52,12 +55,13 @@ const Header: React.FC = () => {
                     <nav className="md:hidden bg-black/90 px-4 pb-4 space-y-2 text-amber-700 text-xl">
                         <a href="/" className="block py-2 hover:opacity-80 font-bold">Home</a>
                         <a href="/music" className="block py-2 hover:opacity-80 font-bold">Music</a>
+                        <a href="/members" className="block py-2 hover:opacity-80 font-bold">Members</a>
                         <a href="/about" className="block py-2 hover:opacity-80 font-bold">About</a>
                         {/*<a href="#shop" className="block py-2 hover:opacity-80 font-bold">Shop</a>*/}
                         {/*<a href="#contact" className="block py-2 hover:opacity-80 font-bold">Contact</a>*/}
                     </nav>
                     <div className="p-4 pb-8">
-                    <SocialHeader />
+                        <SocialHeader />
                     </div>
                 </div>
             )}

@@ -106,7 +106,7 @@ const SocialHeader: React.FC = () => {
         },
         {
             name: 'Spotify',
-            href: '#',
+            href: 'https://open.spotify.com/artist/3PmqWWt2MIEt7sea0O0CVC?si=bx9VN2dFRU2_rLY7ZBKqHQ',
             svg: (
                 <svg
                     role="img"
@@ -123,7 +123,7 @@ const SocialHeader: React.FC = () => {
         },
         {
             name: 'Apple Music',
-            href: '#',
+            href: 'https://music.apple.com/gb/artist/earls-of-eden/1842693214',
             svg: (
                 <svg
                     role="img"

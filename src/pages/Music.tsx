@@ -6,7 +6,7 @@ const Music: FC = () => (
         <h2 className="text-4xl font-display font-bold text-amber-700 mb-6">Music</h2>
         <div className="grid md:grid-cols-3 gap-6">
             {Array.from({ length: 1 }).map((_, i) => (
-                <div key={i} className="card-bg p-6 rounded-lg hover:-translate-y-1 transition-transform cursor-pointer">
+                <a href={"https://open.spotify.com/track/23vEcCJYQsOZUmisbJjgkL?si=c2ba21f3be4546f3"} target={"_blank"} key={i} className="card-bg p-6 rounded-lg hover:-translate-y-1 transition-transform cursor-pointer">
                     <img
                         src="/assets/album_art.webp"
                         alt="Logo"
@@ -15,7 +15,7 @@ const Music: FC = () => (
                     <h3 className="font-heading text-lg text-amber-700 font-bold">Save Me</h3>
                     <p className="text-sm font-body mt-2 text-amber-700">Earls Of Eden debut single, released October
                         2025!</p>
-                </div>
+                </a>
             ))}
         </div>
     </div>
